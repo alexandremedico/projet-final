@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo-facebook-bleu.png" type="image/x-icon">
+    <title>Final project</title>
+</head>
+<body>
+    <!-- inscription -->
+    <nav>
+        <h2><a href="">Facebook</a></h2>
+
+        <div id="user">
+            <p>Mail</p>
+            <input type="email" name="" id="email">
+        </div>
+
+        <div id="password">
+            <p>Password</p>
+            <input type="password" name="" id="pass"><br>
+            <a href="">Account information forgot ?</a>
+        </div>
+
+        <p id="connexion"><a href="./view/homepage.html">Connexion</a></p>
+    </nav>
+
+    <!-- board -->
+    <div id="board">
+        <div id="left">
+            <img src="./img/accueil-fb.png" alt="">
+        </div>
+
+        <div id="right">
+            <div>
+                <h1>Inscription</h1>
+                <input type="text" name="" id="firstname" placeholder="Firstname">
+                <input type="text" name="" id="lastname" placeholder="Lastname"><br>
+                <input type="email" name="" id="email-inscription" placeholder="Email"><br>
+                <input type="password" name="" id="password-inscription" placeholder="Password">
+                <h2>Date of Birth</h2>
+                <input type="date" name="" id="date"><br>
+                <input type="checkbox" name="" id="women"> Women
+                <input type="checkbox" name="" id="men"> Men
+                <br>
+                <input type="submit" value="Inscription" id="inscription">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+</body>
+</html>

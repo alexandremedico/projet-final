@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+nav {
+    height: 10vh;
+    background-color: lightskyblue;
+}
+
+nav h2 {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    font-size: 2rem;
+}
+
+nav div p {
+    color: white;
+}
+
+nav h2 a, p a {
+    text-decoration: none;
+    color: white;
+}
+
+#user {
+    position: absolute;
+    right: 30%;
+    top : 3%;
+}
+
+#password {
+    position: absolute;
+    right: 16%;
+    top : 3%;
+}
+
+#connexion {
+    background: #4267b2;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+/* board */
+#board {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    /* background-color: red; */
+    width: 55%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    /* background-color: violet; */
+    width: 45%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstname, #email-inscription, #password-inscription, #date, #women, #inscription {
+    margin-top: 10%;
+}
+div h1, div h2 {
+    color : #4267b2;
+}
+
+div h2 {
+    margin-top: 20%;
+}
+
+#email-inscription, #password-inscription {
+    width: 99%;
+}
+
+#men {
+    margin-left: 10%;
+}
+
+#inscription {
+    background: #4267b2;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    text-align: center;
+    width: 100px;
+}
