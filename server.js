@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
 // io
 io.on('connection', function (socket) {
     console.log('socket open');
+
+    socket.on('checkMail&password', function (mail, password) {
+        console.log(mail);
+        console.log(password);
+    })
 })
 
 // Lancement de l'application
